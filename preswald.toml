@@ -1,0 +1,24 @@
+[project]
+title = "Tesla Sales Dashboard"
+version = "0.1.0"
+port = 8501
+slug = "tesla-dashboard"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Tesla Sales Dashboard"
+logo = "images/tesla.jpg"
+favicon = "images/favicon.ico"
+primaryColor = "#E82127"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[data.tesla_sales]
+type = "csv"
+path = "data/my_dataset.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
